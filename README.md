@@ -14,9 +14,7 @@ _This includes both the unedited raw files as well as the final analysis/methods
 - The file `ManualMicrogliaComparator` is the script that we used to load and compare real with thresholded images for removal/splitting of cells. A few additions/personalizations to ImageJ can also be helpful for your workflow. We implemented shortcuts examples of which were: r (to open up the roi manager), c (to open up the channels tool). These are not essential but can speed up your workflow. The types of things that may be helpful for you will become apparent as you begin working though your images. Ultimately this program was created to speed my own workflow, but changes might be necessary for your own and to make your workflow the most efficient. 
   
 - [DataFrames](./CierniaLab/StaticAnalysis/DataFrames) contains the final dataframes from the Ciernia Lab pipeline
-
-[Live Cell Frames](./CierniaLab/LiveCell)
-- Contains the final dataframe from this analysis. 
+- [Live Cell Frames](./CierniaLab/LiveCellFrames) contains the finals dataframes as well as the processing of the live cell frames that were analyzed using the ciernia lab protocol. 
 
 **In [Morphoglia](./Morphoglia/) you can find all the data analysis from the morphoglia pipeline.**
 
