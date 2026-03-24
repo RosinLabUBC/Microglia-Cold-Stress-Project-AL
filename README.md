@@ -20,8 +20,6 @@ _This includes both the unedited raw files as well as the final analysis/methods
 
 **In [Morphoglia](./Morphoglia/) you can find all the data analysis from the morphoglia pipeline.**
 
-**In [Live Cell](./LiveCell) you can find all the data anlaysis from the live cell analysis.**
-Within this folder you can find:
-- [Data Frames](./LiveCell/DataFrames) you can find the final data frame from analysis.
-- [Processing Scripts](./LiveCell/Processing%20Scripts) you can find all processing scripts associated with the intermediate graphing, data organization, and processing of Imaris outputs from the live cell data analysis. 
+**In [Live Cell](./LiveCell) you can find the data associated with the live cell analysis.**
+
 
