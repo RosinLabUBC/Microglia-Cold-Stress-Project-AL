@@ -8,19 +8,17 @@ This repository contains analysis workflows, scripts, and processed outputs for 
 
     Microglia-Cold-Stress-Project/
     ├── CierniaLab/
-    │   ├── StaticAnalysis/
-    │   │   ├── DataFrames/
-    │   │   ├── FinalStatsAnalysis/
-    │   │   ├── WorkingStatsAnalysis/
-    │   │   └── AnalysisScripts/
-    │   └── LiveCellFrames/
+    │   ├── LiveCellFrames/
+    │   └── StaticAnalysis/
+    ├── LiveCell/
     ├── Morphoglia/
     │   ├── Dataframes/
     │   ├── FeatureSelection/
     │   ├── Statistical Analysis/
     │   └── WorkingScripts/
-    └── LiveCell/
-
+    └── Protocol/
+        └── Static Microglial Morphology/
+            └── Scripts/
 ---
 
 ## Repository Overview
@@ -43,31 +41,29 @@ This includes both unedited working files and finalized analysis workflows used 
 
 Contains all files associated with static morphological analysis of the E15.5 hypothalamus and nuclei.
 
-#### Contents
-
 - [DataFrames](./CierniaLab/StaticAnalysis/DataFrames)  
-  Final data frames generated from the Ciernia Lab pipeline.
+  Final data frames generated from the Ciernia Lab pipeline. `final-dataframe.csv` is the final dataframe output from analysis with first two PCA included and cluster designations. 
 
 - [FinalStatsAnalysis](./CierniaLab/StaticAnalysis/FinalStatsAnalysis)  
-  Final cleaned statistical analysis workflows used for reproducible analysis.
+  Final cleaned data processing and statistical analysis workflows used for reproducible analysis.
 
 - [WorkingStatsAnalysis](./CierniaLab/StaticAnalysis/WorkingStatsAnalysis)  
-  Working statistical analysis files, including intermediate steps and exploratory code that were not cleaned for reproducibility.
+  Working statistical analysis files, including intermediate steps and exploratory code outlining process and trials. 
 
 - [AnalysisScripts](./CierniaLab/StaticAnalysis/AnalysisScripts)  
-  ImageJ macros used for image processing and analysis.
+  ImageJ macros used for image processing and analysis (step 1 and 2 from the ciernia lab). 
 
 ### [LiveCellFrames](./CierniaLab/LiveCellFrames)
 
 Contains the final data frames and processing files for live-cell frames analyzed using the Ciernia Lab protocol.
+- [DataFrames](./CierniaLab/LiveCellFrames/DataFrames) contains the final output dataframes.
+- [ProcessingScripts](./CierniaLab/LiveCellFrames/ProcessingScripts) contains the R. processing scripts used to cluster the microglial cells, including intermediate steps. Same process was used as in the static analysis. See [FinalStatsAnalysis](./CierniaLab/StaticAnalysis/FinalStatsAnalysis) for cleaned process. 
 
 ---
 
 ## Morphoglia
 
 The [Morphoglia](./Morphoglia/) directory contains all data analyses performed using the Morphoglia pipeline.
-
-#### Contents
 
 - [Dataframes](./Morphoglia/Dataframes)  
   Contains the final morphology data frame `Morphology.csv` and the final clustering data frame `Morphology_HDBSCAN_30_0.1_150_5`.
