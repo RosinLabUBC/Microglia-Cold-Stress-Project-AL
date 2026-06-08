@@ -6,28 +6,42 @@ This repository contains analysis workflows, scripts, and processed outputs for 
 
 ## Repository Structure
 
-    Microglia-Cold-Stress-Project/
-    ├── CierniaLab/
-    │   ├── LiveCellFrames/
-    │   └── StaticAnalysis/
-    ├── LiveCell/
-    ├── Morphoglia/
-    │   ├── Dataframes/
-    │   ├── FeatureSelection/
-    │   ├── Statistical Analysis/
-    │   └── WorkingScripts/
-    └── Protocol/
-        └── Static Microglial Morphology/
-            └── Scripts/
+## Repository Structure
+
+```text
+Microglia-Cold-Stress-Project/
+├── CierniaLab/
+│   ├── LiveCellFrames/
+│   │   ├── DataFrames/
+│   │   └── ProcessingScripts/
+│   └── StaticAnalysis/
+│       ├── AnalysisScripts/
+│       ├── DataFrames/
+│       ├── FinalStatsAnalysis/
+│       └── WorkingStatsAnalysis/
+├── LiveCell/
+├── Morphoglia/
+│   ├── Dataframes/
+│   ├── FeatureSelection/
+│   ├── Statistical Analysis/
+│   └── WorkingScripts/
+├── Protocol/
+│   ├── Live Cell Analysis/
+│   ├── Static Microglial Morphology Analysis/
+│   │   ├── Scripts/
+│   └── README.md
+├── .gitignore
+└── README.md
 ---
 
 ## Repository Overview
 
-This repository is organized into three main analysis sections:
+This repository is organized into four main analysis sections:
 
 - [CierniaLab](./CierniaLab/)
 - [Morphoglia](./Morphoglia/)
 - [LiveCell](./LiveCell/)
+- [Protocol(./Protocol/)
 
 ---
 
@@ -58,7 +72,10 @@ Contains all files associated with static morphological analysis of the E15.5 hy
 Contains the final data frames and processing files for live-cell frames analyzed using the Ciernia Lab protocol.
 - [DataFrames](./CierniaLab/LiveCellFrames/DataFrames) contains the final output dataframes.
 - [ProcessingScripts](./CierniaLab/LiveCellFrames/ProcessingScripts) contains the R. processing scripts used to cluster the microglial cells, including intermediate steps. Same process was used as in the static analysis. See [FinalStatsAnalysis](./CierniaLab/StaticAnalysis/FinalStatsAnalysis) for cleaned process. 
+---
+## LiveCell
 
+The [LiveCell](./LiveCell/) directory contains the data and analysis files associated with the live-cell imaging component of the project.
 ---
 
 ## Morphoglia
@@ -78,10 +95,9 @@ The [Morphoglia](./Morphoglia/) directory contains all data analyses performed u
   Contains additional Python scripts used to generate plots and figures.
 
 ---
+##Protocol
 
-## LiveCell
-
-The [LiveCell](./LiveCell/) directory contains the data and analysis files associated with the live-cell imaging component of the project.
+The [Protocol](./Protocol/) directory contains protocol and instructions associated with static and live-cell analysis. 
 
 ---
 
