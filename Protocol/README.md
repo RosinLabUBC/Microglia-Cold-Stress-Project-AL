@@ -30,4 +30,4 @@ Current contents include:
 
 ## Notes
 
-This section is currently under development. Additional protocols will be added as workflows are finalized.
+This section is currently under development. Additional protocols will be added as workflows are finalized. Video to come on YouTube for our static analysis!!
