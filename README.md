@@ -50,6 +50,9 @@ This repository is organized into four main analysis sections:
 The [CierniaLab](./CierniaLab/) directory contains all data analyses performed using the Ciernia Lab pipeline.
 
 This includes both unedited working files and finalized analysis workflows used to generate the statistics reported in the paper.
+### [FunctionalAnalysis](./CierniaLab/FunctionalAnalysis)
+
+Contains the microglia phagocytosis data and the microglia-AVP neuron interaction data. 
 
 ### [StaticAnalysis](./CierniaLab/StaticAnalysis)
 
