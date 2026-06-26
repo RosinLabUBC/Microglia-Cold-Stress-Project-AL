@@ -9,6 +9,7 @@ This repository contains analysis workflows, scripts, and processed outputs for 
 ```text
 Microglia-Cold-Stress-Project/
 ├── CierniaLab/
+│   ├── FunctionalAnalysis/
 │   ├── LiveCellFrames/
 │   │   ├── DataFrames/
 │   │   └── ProcessingScripts/
