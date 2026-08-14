@@ -2,45 +2,13 @@
 
 This repository contains analysis workflows, scripts, and processed outputs for the microglia morphology cold stress project done by Alexandra Lawson. It includes analyses performed using the Ciernia Lab and Morphoglia pipelines, along with live-cell analysis files and supporting statistical workflows.
 
----
-
-## Repository Structure
-
-```text
-Microglia-Cold-Stress-Project/
-├── CierniaLab/
-│   ├── FunctionalAnalysis/
-│   ├── LiveCellFrames/
-│   │   ├── DataFrames/
-│   │   └── ProcessingScripts/
-│   └── StaticAnalysis/
-│       ├── AnalysisScripts/
-│       ├── DataFrames/
-│       ├── FinalStatsAnalysis/
-│       └── WorkingStatsAnalysis/
-├── LiveCell/
-├── Morphoglia/
-│   ├── Dataframes/
-│   ├── FeatureSelection/
-│   ├── Statistical Analysis/
-│   └── WorkingScripts/
-├── Protocol/
-│   ├── Live Cell Analysis/
-│   ├── Static Microglial Morphology Analysis/
-│   │   ├── Scripts/
-│   └── README.md
-├── .gitignore
-└── README.md
-```
----
-
 ## Repository Overview
 
 This repository is organized into four main analysis sections:
 
 - [CierniaLab](./CierniaLab/)
 - [Morphoglia](./Morphoglia/)
-- [LiveCell](./LiveCell/)
+- [LiveCellAnalysis](./LiveCellAnalysis/)
 - [Protocol](./Protocol/)
 
 ---
