@@ -75,7 +75,3 @@ The [Protocol](./Protocol/) directory contains protocol and instructions associa
 ## Notes
 
 This repository contains both finalized and intermediate analysis materials.
-
-- **Final** folders contain cleaned scripts and outputs intended for reproducible analysis.
-- **Working** folders contain exploratory code, intermediate outputs, and development versions.
-- Raw or unedited files are retained where relevant for transparency and record-keeping.
