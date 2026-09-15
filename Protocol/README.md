@@ -1,10 +1,6 @@
 # Protocols
 
-This folder contains protocols and documentation for image analysis workflows used in this project. These protocols support reproducibility by outlining inclusion/exclusion criteria, analysis steps, and manual editing procedures for both live-cell and fixed-tissue microglial analyses.
-
-### [LiveCell](./LiveCell)
-
-This folder contains protocols related to the analysis of live-cell imaging data from fetal brain slices.
+This folder contains protocols and documentation for image analysis workflows used in this project. These protocols support reproducibility by outlining inclusion/exclusion criteria and analysis steps. 
 
 ### [Static Microglial Morphology Analysis](./Static%20Microglial%20Morphology%20Analysis)
 
