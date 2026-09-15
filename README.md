@@ -1,6 +1,6 @@
 # Microglia Cold Stress Project
 
-This repository contains analysis workflows, scripts, and processed outputs for the microglia morphology cold stress project done by Alexandra Lawson. It includes analyses performed using the Ciernia Lab and Morphoglia pipelines, along with live-cell analysis files and supporting statistical workflows.
+This repository contains analysis workflows, scripts, and processed outputs for the microglia morphology cold stress project done by Alexandra Lawson. It includes analyses performed using the Ciernia Lab and Morphoglia pipelines.
 
 ## Repository Overview
 
