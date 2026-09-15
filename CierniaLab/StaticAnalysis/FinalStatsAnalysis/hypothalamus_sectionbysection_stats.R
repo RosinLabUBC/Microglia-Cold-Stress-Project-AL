@@ -33,6 +33,43 @@ library(openxlsx)
 
 # --- Stats ---
 
+#Males
+stats_testing_hypothalamus_M <- stats_cluster.animal(
+  data     = stats_input_with_sections %>% filter(Sex == "M"),
+  model    = "percentage ~ Cluster*Treatment*SlideNumber + (1|MouseID)",
+  posthoc1 = "~Treatment|Cluster",
+  posthoc2 = "~Treatment|Cluster|SlideNumber",
+  adjust   = "sidak"
+)
+
+#Females
+stats_testing_hypothalamus_F <- stats_cluster.animal(
+  data     = stats_input_with_sections %>% filter(Sex == "F"),
+  model    = "percentage ~ Cluster*Treatment*SlideNumber + (1|MouseID)",
+  posthoc1 = "~Treatment|Cluster",
+  posthoc2 = "~Treatment|Cluster|SlideNumber",
+  adjust   = "sidak"
+)
+
+#Controls
+stats_testing_hypothalamus_CON <- stats_cluster.animal(
+  data     = stats_input_with_sections %>% filter(Treatment == "CON"),
+  model    = "percentage ~ Cluster*Sex*SlideNumber + (1|MouseID)",
+  posthoc1 = "~Sex|Cluster",
+  posthoc2 = "~Sex|Cluster|SlideNumber",
+  adjust   = "sidak"
+)
+
+
+stats_testing_hypothalamus_M[[1]]
+stats_testing_hypothalamus_M[[3]]
+
+stats_testing_hypothalamus_F[[1]]
+stats_testing_hypothalamus_F[[3]]
+
+stats_testing_hypothalamus_CON[[1]]
+stats_testing_hypothalamus_CON[[3]]
+
 # s01 Males
 stats_testing_hypothalamus_s01_M <- stats_cluster.animal(
   data     = stats_input_with_sections %>% filter(SlideNumber == "s01", Sex == "M"),
