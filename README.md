@@ -59,7 +59,7 @@ The [Morphoglia](./Morphoglia/) directory contains all data analyses performed u
 ---
 ## Protocol
 
-The [Protocol](./Protocol/) directory contains protocol and instructions associated with static and live-cell analysis. This includes an instructional [video](https://www.youtube.com/watch?v=K1yZyGLMJOI) for how we adapted the code originally developed by [Jennifer Kim et al. ](https://pubmed.ncbi.nlm.nih.gov/39029952/).
+The [Protocol](./Protocol/) directory contains protocol and instructions associated with the project. This includes an instructional [video](https://www.youtube.com/watch?v=K1yZyGLMJOI) for how we adapted the code originally developed by [Jennifer Kim et al. ](https://pubmed.ncbi.nlm.nih.gov/39029952/).
 
 ---
 
