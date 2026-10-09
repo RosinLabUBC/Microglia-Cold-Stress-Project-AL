@@ -4,7 +4,7 @@ This repository contains analysis workflows, scripts, and processed outputs for 
 
 ## Repository Overview
 
-This repository is organized into four main analysis sections:
+This repository is organized into three main analysis sections:
 
 - [CierniaLab](./CierniaLab/)
 - [Morphoglia](./Morphoglia/)
